@@ -1,0 +1,10 @@
+<ion-content style="text-align: center;" *ngIf="datalist">
+  <div id="container">
+    <h1>404 Error</h1>
+    <p>We may not have found that page you were looking for, but we found this {{ animalInfo.type }} that needs a loving family!</p>
+    <img src="{{ animalInfo.image }}" *ngIf="!!animalInfo.image" alt="Animal Image" id="animalImg">
+    <h3><a href="{{ animalInfo.url }}" title="View More Information!">{{ animalInfo.name }}</a></h3>
+    <p>{{ animalInfo.description }}</p>
+    <p>Status: {{ animalInfo.status }}</p>
+  </div>
+</ion-content>
