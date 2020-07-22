@@ -8,7 +8,10 @@ import {AnimalInterface} from "../interfaces/animalInterface";
   styleUrls: ['./error-page.page.scss'],
 })
 export class ErrorPagePage implements OnInit {
-  client = new Client({apiKey: "0x6B7vWg2R7v4lacPjJUVi0cpqnxMeIVrhR5d3zwJqcsPcmGFy", secret: "XVtHSX4VOIlh8iY0fvjewAY2W8ALIOHtnCwjXOup"});
+  client = new Client({
+      apiKey: "0x6B7vWg2R7v4lacPjJUVi0cpqnxMeIVrhR5d3zwJqcsPcmGFy",
+      secret: "XVtHSX4VOIlh8iY0fvjewAY2W8ALIOHtnCwjXOup"
+  });
 
   public animalInfo: AnimalInterface;
   public datalist;
