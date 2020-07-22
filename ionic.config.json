@@ -1,0 +1,7 @@
+{
+  "name": "IonicAngularThomasGeorge",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
